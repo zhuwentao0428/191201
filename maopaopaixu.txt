@@ -1,0 +1,6 @@
+a=[12,33,41,3,23,44,21,10,5]
+for i in range(len(a)):
+	for b in range(len(a)):
+		if a[i]<a[b]:
+			a[i],a[b]=a[b],a[i]
+print(a)
